@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #222222;
+    height: 75px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.search {
+    padding-left: 41px;
+}
+
+.menu {
+    padding-left: 41px;
+}
+
+.profile {
+    padding-left: 41px;
+}
+
+.basket {
+    padding-left: 41px;
+}
+
+.background {
+    min-height: 764px;
+    background: #F1E4E6;
+}
+
+.background_box {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    padding-left: 63px;
+}
+
+.background_text {
+    padding-left: 16px;
+}
+
+.background_h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.background_p {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.FASHION {
+    color: #f76b84;
+}
+
+.content_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    padding-top: 65px;
+}
+
+.content_buttom {
+    padding-top: 30px;
+}
+
+.content_text {
+    padding-top: 96px;
+    padding-bottom: 48px;
+}
+
+.photo_1 {
+    Width: 360px;
+    Height: 260px;
+    padding-top: 11px;
+    text-align: centre;
+    font-size: 10px;
+    background: url(img/photo_1.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo_4 {
+    Width: 360px;
+    Height: 260px;
+    padding-top: 11px;
+    text-align: centre;
+    font-size: 10px;
+    background: url(img/photo_4.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo_5 {
+    Width: 360px;
+    Height: 260px;
+    padding-top: 11px;
+    text-align: centre;
+    font-size: 10px;
+    background: url(img/photo_5.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_buttom {
+    Width: 1140px;
+    Height: 180px;
+    padding-top: 11px;
+    text-align: centre;
+    font-size: 10px;
+    background: url(img/photo_3.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content_span {
+    color: #f76b84;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+.content_h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content_h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.content_p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
