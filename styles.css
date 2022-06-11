@@ -104,7 +104,7 @@ p {
     padding-top: 30px;
 }
 
-.content_text {
+.item_text {
     padding-top: 96px;
     padding-bottom: 48px;
 }
@@ -177,7 +177,7 @@ p {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.content_h1 {
+.item_h1 {
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -187,7 +187,7 @@ p {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.content_p {
+.item_p {
     display: flex;
     justify-content: center;
     font-weight: 400;
@@ -257,7 +257,128 @@ p {
     border: 1px solid #FF6A6A;
 }
 
-.content_button {
+.rectangle_head {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.item-sec {
+    margin-top: 100px;
+}
+
+.item_flex {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 360px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.item_link {
+    display: block;
+    width: 360px;
+    text-decoration: none;
+}
+
+.item_link:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 15);
+}
+
+.item:hover .item_pic {
+    filter: brightness(50%);
+}
+
+.item_pic {
+    width: 100%;
+}
+
+.txt_box {
+    padding: 15px;
+    background: #F8F8F8;
+}
+
+.item_head {
+    padding-top: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.item_text {
+    padding-top: 12px;
+    padding-bottom: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.item_price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.add_box {
+    display: none;
+    position: absolute;
+    top: 202px;
+    justify-content: center;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.item:hover .add_box {
+    display: flex;
+}
+
+.add {
+    display: flex;
+    text-decoration: none;
+    border: 1px solid #F1E4E6;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+
+.add:hover {
+    box-shadow: 0px 0px 10px 0px #E1E1E1;
+}
+
+.cart {
+    margin-right: 10px;
+}
+
+.add-desc {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.item_button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -413,4 +534,152 @@ form {
     line-height: 19px;
 
     color: #FBFBFB;
+}
+
+.network {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+/*Registration*/
+.registration_top {
+    Height: 148px;
+    background: #F8F3F4;
+}
+
+.registration_head {
+    padding-top: 59px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.forma {
+    height: 675px;
+    background: #E5E5E5;
+}
+
+.forma_registration {
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration_naim {
+    padding-bottom: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222
+}
+
+.pol {
+    padding-right: 20px;
+    padding-left: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.registration_form {
+    margin-bottom: 20px;
+    padding-left: 16px;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    opacity: 0.4;
+    Width: 360px;
+    Height: 45px;
+}
+
+.registration_button {
+    margin-top: 39px;
+    Width: 167px;
+    Height: 50px;
+    background: #F16D7F;
+    border: 2px solid #F16D7F;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.registration_login {
+    padding-top: 33px;
+    padding-bottom: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222
+}
+
+.registration_coment {
+    padding-top: 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #B1B1B1;
+    Width: 359px;
+
+}
+
+.loyalty_h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.loyalty_p {
+    padding-top: 22px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.loyalty_ol {
+    padding-top: 21px;
+    list-style: none;
+}
+
+.loyalty_ol>.loyalty_li {
+    padding-left: 40px;
+    position: relative;
+}
+
+.loyalty_ol>.loyalty_li:before {
+    content: '✔';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+}
+
+.loyalty_li {
+
+    padding-bottom: 16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
