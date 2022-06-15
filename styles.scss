@@ -207,6 +207,7 @@ p {
     position: absolute;
     display: none;
     margin-top: -7px;
+    z-index: 100;
 }
 
 .mega_heding {
@@ -854,12 +855,111 @@ details[open]>summary::after {
     margin-left: 10px;
 }
 
-.filter {
-    display: flex;
+.pereklyuchatel {
+    display: flex ;
+    justify-content: center;
+    padding-bottom: 109px;
+}
+.pereklyuchatel-stranits {
+    display: flex ;
     align-items: center;
-
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 8px;
+    width: 282px;
+    height: 43px;
+}
+.pereklyuchatel-stranits li {
+    list-style: none;
 }
 
-.pereklyuchatel-stranits li {
-    list-style-type: none;
+.pereklyuchatel_a {
+    text-decoration: none;
+    color: #5D5D5D;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 19px;
+    padding-left: 17px;
+}
+
+.pereklyuchatel_a:hover{
+    text-decoration: none;
+    color: #dd2742;
+}
+
+.pereklyuchatel_left {
+    padding-left: 0px;
+    color: #5D5D5D;
+}
+
+.pereklyuchatel_left:hover {
+    color: #dd2742;
+}
+
+.pereklyuchatel_right {
+    padding-left: 17px;
+    color: #5D5D5D;
+}
+
+.pereklyuchatel_left:hover {
+    color: #dd2742;
+}
+
+.filter_catalog {
+    display: flex;
+}
+
+.catal {
+display: flex;
+}
+
+.filte {
+    padding-right: 350px;
+    position: relative;
+}
+
+.sum_filter::after {
+    content: url(img/filter.svg);
+    padding-right: 0.5em;
+    margin-left: 10px;
+}
+
+.filte[open]>.sum_filter::after {
+    content: url(img/filter.svg);
+    margin-left: 10px;
+}
+
+.filter_col {
+    padding-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #FFFFFF;
+    box-shadow: 1px 0px 2px rgb(0 0 0 / 10%);
+}
+
+
+.filter_flex {
+    position: absolute;
+    z-index: 100;
+    width: 360px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding: 15px;
+}
+
+.size_col {
+    position: relative; 
+}
+
+.size {
+    position: absolute;
+    z-index: 100;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    width: 49px;
+    padding: 5px;
 }
